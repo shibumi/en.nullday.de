@@ -1,11 +1,12 @@
 # Site settings
 title: nullday
-email:
+email: chris@nullday.de
 description: "nullday is the webspace of Christian Rebischke and powered by jekyll without Javascript, PHP, Cookies and MySQL. Last change: 2015-11-29"
 baseurl: ""
 url: "http://en.nullday.de"
 twitter_username: sh1bumi
 github_username:  shibumi
+linkedin_username: shibumi
 
 # Build settings
 markdown: rdiscount
