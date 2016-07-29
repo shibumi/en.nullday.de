@@ -12,6 +12,7 @@ Datacenter TU-Clausthal
 * Network Monitoring with Centreon  
 * NFSv4 with Kerberos  
 * System Administration (CentOS 7, Ubuntu, RHEL)  
+* LanSweeper
 * ...  
   
 Junior Scientist at    
@@ -61,6 +62,9 @@ Clausthal-Zellerfeld (2004-2013)
 * East-Asia (Japan, Korea, China)  
 * History  
 * Politics  
+* Literature
+* Politics
+* Music
   
 **Skills**    
 
