@@ -40,7 +40,7 @@ Clausthal-Zellerfeld (2004-2013)
 * German (first language)   
 * English (fluently)  
   
-**Languages (basic skills)**  
+**Languages (low skills)**  
 
 * Japanese   
 * Russian   
