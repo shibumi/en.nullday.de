@@ -16,7 +16,7 @@ Datacenter TU-Clausthal
 * ...  
   
 Junior Scientist at    
-Institute for Mathematics and Operations Research    
+Institute for Mathematics TU-Clausthal  
 (2014-)  
 
 * First-Level-Support  
@@ -29,7 +29,7 @@ Institute for Mathematics and Operations Research
 * ...  
   
 Studying Information Technology at the    
-Technical University of Clausthal-Zellerfeld    
+Technical University of Clausthal    
 (2013-)    
   
 High-School Diploma at Robert-Koch-Gymnasium    
@@ -84,10 +84,10 @@ A big thanks to [Peter Kalnai](https://twitter.com/pkalnai) and [Jaromir Horejsi
   
 **Visited Events**  
 
-* October 2014, Hackover in Hannover  
-* December 2014, 31. Chaos Communication Congress in Hamburg  
-* April 2015, Easterhegg in Braunschweig  
-* August 2015, Chaos Communication Camp in Mildenberg (Berlin)  
-* October 2015, Hackover in Hannover  
 * December 2015, 32. Chaos Communication Congress in Hamburg  
+* October 2015, Hackover in Hannover  
+* August 2015, Chaos Communication Camp in Mildenberg (Berlin)  
+* April 2015, Easterhegg in Braunschweig  
+* December 2014, 31. Chaos Communication Congress in Hamburg  
+* October 2014, Hackover in Hannover  
   
