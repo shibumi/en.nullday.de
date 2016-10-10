@@ -95,7 +95,7 @@ rule dubrute : bruteforcer
         description = "Rules for DuBrute Bruteforcer"
         in_the_wild = true
         family = "Hackingtool/Bruteforcer"
-    
+
     strings:
         $a = "WBrute"
         $b = "error.txt"
