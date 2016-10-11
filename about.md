@@ -5,6 +5,13 @@ permalink: /about/
 ---
   
 **Curriculum Vitae**  
+
+Junior Scientist at
+Institute for Software Systems Engineering TU-Clausthal
+(October 2016-)
+
+* Software development in Java
+
 Junior Scientist at  
 Datacenter TU-Clausthal  
 (April 2016-)  
@@ -13,6 +20,7 @@ Datacenter TU-Clausthal
 * NFSv4 with Kerberos  
 * System Administration (CentOS 7, Ubuntu, RHEL)  
 * LanSweeper
+* OPSI
 * ...  
   
 Junior Scientist at    
