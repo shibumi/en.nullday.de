@@ -84,6 +84,7 @@ A big thanks to [Peter Kalnai](https://twitter.com/pkalnai) and [Jaromir Horejsi
   
 **Visited Events**  
 
+* October 2016, Hackover in Hannover
 * December 2015, 32. Chaos Communication Congress in Hamburg  
 * October 2015, Hackover in Hannover  
 * August 2015, Chaos Communication Camp in Mildenberg (Berlin)  
