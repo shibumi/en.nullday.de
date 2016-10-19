@@ -44,5 +44,27 @@ As you see this sentence is absolutly ridiculous. Systemd has a
 bootloader. **systemd-boot** is not booting the system. It is just a
 boot-manager! **EFI** does!  
   
+**systemd replaces sudo and su**  
+*Please note the command name, machinectl and its features at the
+manpage. In exchange for a program which contains sudo, su and kill (and
+does some functions which historically ssh/telnet did), bare metal users
+have a tons of bloat and a lot of things to disable, if even possible,
+useful only to people which deal with virtual machines.*  
+  
+First of all: **systemd-machined** or better **machinectl** will never
+replace sudo or su. Do not worry. Secondly **machinectl** is totally
+different than sudo or su. **machinectl** gets its information from
+**polkit** via **dbus**. **polkit** is a much nicer way to define
+permissions-rules. **sudo** and **su** has different weak points, one of
+them is that **sudo** and **su** can not talk via **dbus** nor any other
+IPC daemon. I think you know this moment when you forgot to type
+**sudo** in front of a command. With **polkit** you don't have this
+situation because the system service will just ask for a permission via
+**IPC**. And yes.. you will need this for some stronger security
+policies than just kernel-based permissions. You can find more about
+this topic here:
+[why-polkit](https://www.collabora.com/about-us/blog/2015/06/08/why-polkit-(or,-how-to-mount-a-disk-on-modern-linux))  
+  
+
 
 
