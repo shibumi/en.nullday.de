@@ -72,7 +72,7 @@ transactions, does this feature make the log unreadable at times?*
 Nope. Sorry. It will not get unreadable. I am running systemd now for
 years and I had never an unreadable log.  
   
-**Transient units**
+**Transient units**  
 *Temporary services, because we love to reinvent procps, forking, nohup
 and lsof.*  
   
@@ -81,7 +81,6 @@ Administrator can pass environment-variables to a service or set
 security features via kernel capabilities.  
   
 **systemd does socat/netcat**  
-  
 This feature is being used in the socket-activation. Something that is
 pretty awesome. Why do you want socket-activation? Think about the boot
 process. Let us say we start different services at the same time in
@@ -95,7 +94,6 @@ service will be buffered in the activated socket and will be forwarded
 to the log daemon when the log daemon is ready. 
   
 **systemd-logind does sighup and nohup**  
-  
 *Logout is equivalent to shutting off the machine, so you will NOT have
 any running program after logout, unless you inform your init system.*
   
@@ -120,7 +118,7 @@ that are allowed to stay running after logout. This way we can make sure
 that only these whitelisted programs will run and not other stuff like
 malware, zombie processes or the 16-years-old users porn torrents.  
   
-**systemd-nspawn can patch at will any kind of file in a container** 
+**systemd-nspawn can patch at will any kind of file in a container**  
 *Paired with transient units and user escalation performable remotely,
 this can mean that if you house VPS instances somewhere, your hosting
 provider has means and tools to spy, modify, delete any kind of content
@@ -133,7 +131,6 @@ your stuff. This feature is necessary if we want to use namespaces in
 containers.  
   
 **systemd does UNIX nice**  
-  
 Let me quote the first sentence from the README there this feature is
 mentioned:  
   
