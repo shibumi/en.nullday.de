@@ -65,6 +65,60 @@ policies than just kernel-based permissions. You can find more about
 this topic here:
 [why-polkit](https://www.collabora.com/about-us/blog/2015/06/08/why-polkit-(or,-how-to-mount-a-disk-on-modern-linux))  
   
+**systemd-journald can do log-rotate**  
+*Being journal files binaries written with easily corruptable
+transactions, does this feature make the log unreadable at times?*  
+  
+Nope. Sorry. It will not get unreadable. I am running systemd now for
+years and I had never an unreadable log.  
+  
+**Transient units**
+*Temporary services, because we love to reinvent procps, forking, nohup
+and lsof.*  
+  
+What is so wrong with this feature? I think it is a good idea when an
+Administrator can pass environment-variables to a service or set
+security features via kernel capabilities.  
+  
+**systemd does socat/netcat**  
+  
+This feature is being used in the socket-activation. Something that is
+pretty awesome. Why do you want socket-activation? Think about the boot
+process. Let us say we start different services at the same time in
+parallel. (This is what systemd does because it is increasing the speed
+a lot. What is nicer than a laptop that boots up in 0.5 seconds?). When
+we start different services in parallel it can happen that a service is
+for example earlier ready when the log daemon. In this case socket
+activation rescues your day. Because with socket activation the other
+service does not need to wait for the log daemon. Every output from this
+service will be buffered in the activated socket and will be forwarded
+to the log daemon when the log daemon is ready. 
+  
+**systemd-logind does sighup and nohup**  
+  
+*Logout is equivalent to shutting off the machine, so you will NOT have
+any running program after logout, unless you inform your init system.*
+  
+Why should it be the other way around? When a user logs out from a
+session I want that every process by this user is killed. Especially the
+gnome desktop had the problem that even after logouts zombie processes
+survived or other artifacts that burn your ram. You do not realize this
+on your single-user-system but ask someone who is managing
+infrastructure for thousands of users. You don't want to waste any
+memory. And even when we say:  
+  
+*Ok! Let us do your way*
+  
+We will have one problem. We will allow every program to survive a user
+session. You have to see it out of the blacklist-whitelist-view.
+What is better a whitelist or a blacklist?
+When I have 1000 of programs should I whitelist everyone and blacklist
+just a few? What happens when I forgot to blacklist one? Can I blacklist
+all programs on this planets via picking every program and analyzing it?
+No, I can't and thats why we use a blacklist and whitelist the programs
+that are allowed to stay running after logout. This way we can make sure
+that only these whitelisted programs will run and not other stuff like
+malware, zombie processes or the 16-years-old users porn torrents.
 
 
 
