@@ -118,7 +118,31 @@ all programs on this planets via picking every program and analyzing it?
 No, I can't and thats why we use a blacklist and whitelist the programs
 that are allowed to stay running after logout. This way we can make sure
 that only these whitelisted programs will run and not other stuff like
-malware, zombie processes or the 16-years-old users porn torrents.
-
-
+malware, zombie processes or the 16-years-old users porn torrents.  
+  
+**systemd-nspawn can patch at will any kind of file in a container** 
+*Paired with transient units and user escalation performable remotely,
+this can mean that if you house VPS instances somewhere, your hosting
+provider has means and tools to spy, modify, delete any kind of content
+you store there. Encrypt everything, read your TOS.*  
+  
+First of all when I host stuff remotely there is no guarantee that it's
+not bugged even with disk-encryption. Even with disk-encryption the guy
+with hardware access could do harmful things and modify, delete, spy
+your stuff. This feature is necessary if we want to use namespaces in
+containers.  
+  
+**systemd does UNIX nice**  
+  
+Let me quote the first sentence from the README there this feature is
+mentioned:  
+  
+*The LimitNICE= setting now optionally takes normal UNIX nice values
+in addition to the raw integer limit value.*  
+  
+What is so wrong about when we can limit a nice level for a specific
+service? Imagine a service that starts consuming a lot of memory. This
+way we can limit this service when it happens and give the other
+processes a better place in the scheduling.
+  
 
