@@ -81,6 +81,7 @@ Administrator can pass environment-variables to a service or set
 security features via kernel capabilities.  
   
 **systemd does socat/netcat**  
+  
 This feature is being used in the socket-activation. Something that is
 pretty awesome. Why do you want socket-activation? Think about the boot
 process. Let us say we start different services at the same time in
@@ -131,6 +132,7 @@ your stuff. This feature is necessary if we want to use namespaces in
 containers.  
   
 **systemd does UNIX nice**  
+  
 Let me quote the first sentence from the README there this feature is
 mentioned:  
   
@@ -140,6 +142,33 @@ in addition to the raw integer limit value.*
 What is so wrong about when we can limit a nice level for a specific
 service? Imagine a service that starts consuming a lot of memory. This
 way we can limit this service when it happens and give the other
-processes a better place in the scheduling.
+processes a better place in the scheduling.  
+  
+**systemd locks down /etc and makes it read-only**  
+  
+This is absolutly out of context. **systemd** uses a capability that is
+called **ProtectSystem** with this capability I can reduce the access
+for a specific service that doesn't need access to specific areas. This
+means for /etc that /etc will be mounted read-only. But **only** for
+this service. This way the service is not able to change configuration
+files maliciously or unintentionally. I think this is a good feature to
+secure your system.  
+  
+**systemd now does your DNS**  
+  
+We are not in North-Korea. DNS is something important nowadays that
+every system that wants to do networking need. It was just an amount of
+time that this will be included. Moreover you can turn that function off
+and still use every other DNS service that you like. It's also important
+for the nspawn-containers. They rely on a proper DNS service. And
+mostly: The systemd developers can finally enforce DNSSEC everywhere
+with this option. That's a good step to a more secure internet.  
+  
+**systemd hates when you adapt your system (graphics on other than
+vt1)**  
+  
+Support has borders. You can't support everything in a software and
+standards are needed. The internet relies on standards because standards
+make the world easy.  
   
 
