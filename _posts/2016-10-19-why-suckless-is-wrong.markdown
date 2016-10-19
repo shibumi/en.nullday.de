@@ -12,6 +12,7 @@ arguments when they got pointed to this website. This can take a while
 so feel free to grab a coffee or a cold mate.  
   
 Let us begin with the second abstract:  
+  
 **What PID 1 Should Do**  
 *When your system boots up the kernel is executing a given binary in its
 known namespace. To see what are the only tasks the application running
