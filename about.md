@@ -11,6 +11,8 @@ Institute for Software Systems Engineering TU-Clausthal
 (October 2016-)  
   
 * Software development in Java  
+* Functional-Mockup-Interface (FMI)
+* ...
   
 Junior Scientist at  
 Datacenter TU-Clausthal  
@@ -21,6 +23,7 @@ Datacenter TU-Clausthal
 * System Administration (CentOS 7, Ubuntu, RHEL)  
 * LanSweeper
 * OPSI
+* Package-Management (Ubuntu/CentOS)
 * ...  
   
 Junior Scientist at    
@@ -92,6 +95,7 @@ A big thanks to [Peter Kalnai](https://twitter.com/pkalnai) and [Jaromir Horejsi
   
 **Visited Events**  
 
+* December 2016, 33. Chaos Communication Congress in Hamburg
 * October 2016, Hackover in Hannover
 * December 2015, 32. Chaos Communication Congress in Hamburg  
 * October 2015, Hackover in Hannover  
