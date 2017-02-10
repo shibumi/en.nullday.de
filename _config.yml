@@ -12,6 +12,6 @@ xing_username: Christian_Rebischke
 
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
-highlighter: true
+highlighter: rouge
