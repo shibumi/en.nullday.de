@@ -30,7 +30,6 @@ Junior Scientist at
 Institute for Mathematics TU-Clausthal  
 (2014-)  
 
-* First-Level-Support  
 * System Administration (Windows, GNU/Linux)  
 * Network Monitoring with Centreon  
 * Firefox-Cloud (Sync- and Authserver)  
