@@ -88,6 +88,7 @@ Clausthal-Zellerfeld (2004-2013)
 **Involvement**    
 
 * [Archlinux: CVE-Monitoring Team](https://www.archlinux.org/people/support-staff/)  
+* [Archlinux: Trusted User](https://www.archlinux.org/people/trusted-users/)  
   
 **Mentions**  
 
