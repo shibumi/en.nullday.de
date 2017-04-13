@@ -123,7 +123,7 @@ Clausthal-Zellerfeld (2004-2013)
     * Continuous-Delivery
     * Continuous-Integration (Jenkins)
     * Site-Reliability-Engineering
-    * Quality-Management
+    * Quality-Assurance
     * Release-Engineering
     * Container (Docker, Systemd-Nspawn)
     * Virtualization (Vagrant, libvirt, KVM)
