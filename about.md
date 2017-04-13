@@ -67,6 +67,67 @@ Clausthal-Zellerfeld (2004-2013)
 * Bash  
 * Rust  
 * Ruby
+
+**Skillset**
+
+* Systemadministration
+    * RHEL, Debian, Ubuntu, Arch Linux, CentOS
+    * Webserver (Nginx, Apache)
+    * Editors (vim, nano)
+    * Init-Systems (Sysvinit, systemd)
+    * Databases (MySQL, MariaDB)
+    * NFS (NFSv4 with Kerberos Support)
+    * Compute Cluster (MPI)
+    * VPN (OpenVPN)
+    * Firewall (firewalld, iptables)
+    * Package Management (deb, rpm, pkg.tar.xz)
+    * Network Monitoring (NSCA, NRPE, SNMP)
+    * Access-Control (PAM, sudo, polkit, LDAP)
+    * Backups (borg, rsync)
+* IT-Security
+    * IT-Forensic
+        * Data-Rescue
+        * Reverse-Engineering
+        * Static-Malware-Analysis
+        * Dynamic-Malware-Analysis
+        * Phishing
+        * APT
+        * Threat-Modells
+        * Yara, radare2, gdb, strace, photorec, ..
+    * Offensive
+        * Blackbox-Testing
+        * Whitebox-Testing
+        * Exploits
+        * Information-Gathering
+        * Fuzzing
+        * Social-Engineering
+    * Defensive
+        * Linux-Hardening (grsec, selinux, audit, namespaces, cgroups)
+        * Encryption (dm-crypt, LUKS, openssl)
+        * Anonymization (Tor)
+        * Obfuscation, Steganography
+* Software Engineering
+    * IDE (Eclipse, Intellij)
+    * VCS (SVN, GIT)
+    * Agile, V-Modell XT, Test-Driven-Development
+    * Kanban
+    * SWOT
+    * Requirements-Engineering
+    * Design-Patterns
+    * Unit-Tests
+    * User-Experience (UX)
+    * Architecture-Modelling (UML)
+* DevOps
+    * Orchestration (Ansible)
+    * Config-Management (Puppet)
+    * Continuous-Delivery
+    * Continuous-Integration (Jenkins)
+    * Site-Reliability-Engineering
+    * Quality-Management
+    * Release-Engineering
+    * Container (Docker, Systemd-Nspawn)
+    * Virtualization (Vagrant, libvirt, KVM)
+    * IaaS, SaaS, ..
   
 **Interests**  
 
@@ -75,14 +136,6 @@ Clausthal-Zellerfeld (2004-2013)
 * Music  
 * Philosophy
 * Cooking
-  
-**Skills**    
-
-* Systemadministration    
-* Reverse Engineering    
-* Malware Analysis    
-* Software Engineering  
-* DevOps
   
 **Involvement**    
 
