@@ -66,8 +66,11 @@ Clausthal-Zellerfeld (2004-2013)
 * Python  
 * Bash  
 * Rust  
-* Ruby
-
+* Ruby  
+* Javascript
+* PHP
+* Prolog 
+  
 **Skillset**
 
 * Systemadministration
@@ -84,6 +87,8 @@ Clausthal-Zellerfeld (2004-2013)
     * Network Monitoring (NSCA, NRPE, SNMP)
     * Access-Control (PAM, sudo, polkit, LDAP)
     * Backups (borg, rsync)
+    * DNS (dnsmasq)
+    * Mailserver (postfix)
 * IT-Security
     * IT-Forensic
         * Data-Rescue
@@ -106,6 +111,8 @@ Clausthal-Zellerfeld (2004-2013)
         * Encryption (dm-crypt, LUKS, openssl)
         * Anonymization (Tor)
         * Obfuscation, Steganography
+        * Honeypots (kippo, cowrie)
+        * Port-Knocking
 * Software Engineering
     * IDE (Eclipse, Intellij)
     * VCS (SVN, GIT)
