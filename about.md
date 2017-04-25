@@ -156,6 +156,7 @@ A big thanks to [Peter Kalnai](https://twitter.com/pkalnai) and [Jaromir Horejsi
   
 **Visited Events**  
 
+* March, 2017, Cebit in Hannover
 * December 2016, 33. Chaos Communication Congress in Hamburg
 * October 2016, Hackover in Hannover
 * December 2015, 32. Chaos Communication Congress in Hamburg  
