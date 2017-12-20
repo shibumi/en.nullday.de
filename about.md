@@ -8,11 +8,13 @@ permalink: /about/
 
 Junior Scientist at  
 Institute for Software Systems Engineering TU-Clausthal  
-(October 2016-)  
+(October 2016-September 2017)  
   
-* Software development in Java  
-* Functional-Mockup-Interface (FMI)
-* ...
+* Software Development (Java)
+* FMI (Functional-Mockup-Interface)
+* Matlab
+* Multi-Level-Simulation
+* Build-Management (Gradle)
   
 Junior Scientist at  
 Datacenter TU-Clausthal  
@@ -28,15 +30,18 @@ Datacenter TU-Clausthal
   
 Junior Scientist at    
 Institute for Mathematics TU-Clausthal  
-(2014-)  
+(April 2014-September 2017)  
 
-* System Administration (Windows, GNU/Linux)  
-* Network Monitoring with Centreon  
-* Firefox-Cloud (Sync- and Authserver)  
-* Computecluster  
-* PAM, LDAP, ActiveDirectory, MySQL, NFS4  
-* Software development in Bash and Python  
-* ...  
+* System Administration (Linux, Microsoft Windows)
+* Identity and Access Management (LDAP, PAM, Kerberos)
+* Monitoring (NRPE, NSCA, SNMP)
+* Package Management (RPM, DEB)
+* Bash-Scripting
+* Printserver (CUPS)
+* Webserver (Apache)
+* Network-Storage (NFSv4, Firefox-Sync-Server)
+* Database (MySQL)
+* Configuration-Management (OPSI)
   
 Studying Information Technology at the    
 Technical University of Clausthal    
