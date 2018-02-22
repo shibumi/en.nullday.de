@@ -50,7 +50,7 @@ every startup automatically. There are usecases for this, but that are
 not my usecases. I don't need the VPN that often. So for my client I use
 the old way with */etc/wireguard/wg0.conf* file, but I don't want to be
 an asshole, so here is the client configuration via *systemd-networkd*.
-Pleas keep in mind: I didn't test the client setup...
+Please keep in mind: I didn't test the client setup...
 
 */etc/systemd/network/wg0.netdev*
 ~~~ ini
