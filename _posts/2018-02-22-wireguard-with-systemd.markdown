@@ -12,7 +12,7 @@ tutorials for this. So here is my setup:
 **Server**
 
 */etc/systemd/network/wg0.netdev*
-`
+~~~ ini
 [NetDev]
 Name=wg0
 Kind=wireguard
@@ -25,10 +25,10 @@ ListenPort=51820
 [WireGuardPeer]
 PublicKey=<public key of server>
 AllowedIPs=10.0.0.2/24
-`
+~~~
 
 */etc/systemd/network/wg0.network*
-`
+~~~ ini
 [Match]
 Name=wg0
 
@@ -36,7 +36,7 @@ Name=wg0
 Address=10.0.0.1/24
 IPForward=True
 IPMasquerade=True
-`
+~~~
 
 **Client**
 
@@ -53,7 +53,7 @@ an asshole, so here is the client configuration via *systemd-networkd*.
 Pleas keep in mind: I didn't test the client setup...
 
 */etc/systemd/network/wg0.netdev*
-`
+~~~ ini
 [NetDev]
 Name=wg0
 Kind=wireguard
@@ -67,10 +67,10 @@ ListenPort=51820
 PublicKey=<public key of server>
 AllowedIPs=0.0.0.0/0
 Endpoint=<server>:51820
-`
+~~~
 
 */etc/systemd/network/wg0.network*
-`
+~~~ ini
 [Match]
 Name=wg0
 
@@ -80,4 +80,4 @@ DNS=10.0.0.1/24
 
 [Route]
 Destination=10.0.0.0/24
-`
+~~~
