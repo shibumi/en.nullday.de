@@ -5,16 +5,6 @@ permalink: /about/
 ---
   
 **Curriculum Vitae**  
-
-Junior Scientist at  
-Institute for Software Systems Engineering TU-Clausthal  
-(October 2016-September 2017)  
-  
-* Software Development (Java)
-* FMI (Functional-Mockup-Interface)
-* Matlab
-* Multi-Level-Simulation
-* Build-Management (Gradle)
   
 Junior Scientist at  
 Datacenter TU-Clausthal  
@@ -27,6 +17,18 @@ Datacenter TU-Clausthal
 * OPSI
 * Package-Management (Ubuntu/CentOS)
 * ...  
+  
+Junior Scientist at  
+Institute for Software Systems Engineering TU-Clausthal  
+(October 2016-September 2017)  
+  
+* Version Control System (SVN)
+* Software Architecture
+* Software Development (Java)
+* Build Management (Gradle)
+* Functional Mockup Interface (FMI)
+* Matlab Simulink Compiler
+* Continuous Code Quality (Sonarqube)
   
 Junior Scientist at    
 Institute for Mathematics TU-Clausthal  
