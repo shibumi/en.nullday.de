@@ -30,7 +30,3 @@ cookies are used to identify users and the connection to this site is
 via HTTPS only.
 
 Therefore no data is collected and can't be passed on to third parties.
-
-If data is still being collected (for example, when troubleshooting
-network issues) this data will be destroyed immediately after the error
-has been corrected.
