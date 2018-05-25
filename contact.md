@@ -4,45 +4,22 @@ title: Contact
 permalink: /contact/
 ---
 
-**Legal Disclosure**  
-**Information in accordance with section 5 TMG**
+**Contact**
 
-Christian Rebischke  
-Marie-Hedwigstraße 13  
-38678 Clausthal-Zellerfeld  
+Christian Rebischke
+Marie-Hedwigstraße 13
+38678 Clausthal-Zellerfeld
 
-**Contact**  
+**Mail**
 
-chris@nullday.de  
+chris@nullday.de
 
-Jabber: shibumi@jabber.ccc.de  
-Twitter: [https://twitter.com/sh1bumi](https://twitter.com/sh1bumi)  
-Github: [https://github.com/shibumi](https://github.com/shibumi)  
-Xing: [Christian Rebischke](https://www.xing.com/profile/Christian_Rebischke)  
-LinkedIn: [Christian Rebischke](http://de.linkedin.com/pub/christian-rebischke/a0/683/9b7)  
+**Social Media**
 
-**Person responsible for content in accordance with 55 Abs. 2 RStV**
+Jabber: shibumi@jabber.ccc.de
+Twitter: [https://twitter.com/sh1bumi](https://twitter.com/sh1bumi)
+Github: [https://github.com/shibumi](https://github.com/shibumi)
+Xing: [Christian Rebischke](https://www.xing.com/profile/Christian_Rebischke)
+LinkedIn: [Christian Rebischke](http://de.linkedin.com/pub/christian-rebischke/a0/683/9b7)
 
-Christian Rebischke  
-Marie-Hedwigstraße 13  
-38678 Clausthal-Zellerfeld  
-
-**Contact**  
-
-chris@nullday.de  
-
-**Disclaimer**
-
-**Accountability for content**
-
-The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
-
-**Accountability for links**
-
-Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.
-
-**Copyright**
-
-Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law (§ 44a et seq. of the copyright law), every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are allowed only for private use, so must not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is punishable (§ 106 of the copyright law).
-
-Source: [twigg.de](http://www.twigg.de/haftungsausschlussimpressumenglisch.htm)
+**Privacy Policy**
