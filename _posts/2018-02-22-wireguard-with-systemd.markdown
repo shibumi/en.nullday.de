@@ -23,7 +23,7 @@ PrivateKey=<private key of server>
 ListenPort=51820
 
 [WireGuardPeer]
-PublicKey=<public key of server>
+PublicKey=<public key of client>
 AllowedIPs=10.0.0.2/24
 ~~~
 
