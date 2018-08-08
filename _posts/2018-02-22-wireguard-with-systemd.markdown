@@ -6,8 +6,7 @@ categories: IT-Sec
 ---
 
 As you might know, *systemd-networkd* got support for *wireguard*.
-The feature is pretty new so therefore there are not so much howtos and
-tutorials for this. So here is my setup:
+The feature is pretty new. So here is my setup:
 
 **Server**
 
@@ -41,16 +40,16 @@ IPMasquerade=True
 **Client**
 
 And here comes the interesting part. I don't use *systemd-networkd* with
-*wireguard* on my client. The reasons for this is are a modification of
-wg-quick@wg0.service (I trigger i3blocks via posix signals on activation
-for having a nice VPN icon in my i3statusbar) and the circumstance that
-*systemd-networkd* only knows one state *on*. So if you would configure
+*wireguard* on my client. The reasons for this are a modification of
+wg-quick@wg0.service (I trigger i3blocks via POSIX signals for having a
+nice VPN icon in my i3statusbar) and the circumstance that
+*systemd-networkd* only knows one state: *on*. So if you would configure
 the VPN on your client via *systemd-networkd* you would run that VPN on
 every startup automatically. There are usecases for this, but that are
-not my usecases. I don't need the VPN that often. So for my client I use
-the old way with */etc/wireguard/wg0.conf* file, but I don't want to be
-an asshole, so here is the client configuration via *systemd-networkd*.
-Please keep in mind: I didn't test the client setup...
+not my usecases. I don't need the VPN that often. So for my client, I
+use the old way with */etc/wireguard/wg0.conf* file. Nevertheless here
+is the client configuration via *systemd-networkd*.  Please keep in
+mind: I didn't test the client setup...
 
 */etc/systemd/network/wg0.netdev*
 ~~~ ini
